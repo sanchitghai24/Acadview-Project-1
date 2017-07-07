@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!--<html lang="en">-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>FriendlY</title>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="main.css" type="text/css" rel="stylesheet">
+  </head>
+
+<body>
+    <div class="container-fluid" id="wrapper">
+
+            <header>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" style="color:white;" href="#"><i class="fa fa-facebook-square"  style="margin-right:10px;" aria-hidden="true"></i>FriendlY</a>
+    </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input id="search-bar" type="text" class="form-control barr" placeholder="Search">
+        </div>
+        <button id="search-btn" type="submit" class="glyphicon glyphicon-search"></button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" style="padding-left:10px; padding-right:10px;"><span><img src="https://pcache-pv-eu1.badoocdn.com/p67/30085/0/0/3/1360699527/d1317897/t1454418285/c_LI5LOJbZUVdAnsUNNgHRo4xZwBNazya-.U4QcyyhtMM/1317897230/dfs_180x180/sz___size__.jpg" style="width:25px; height:25px;"/>Sanchit</span></a></li>
+        <li><a href="#" style="padding-left:10px; padding-right:10px;"><span class="border">Home</span></a></li>
+        <li><a href="#" style="padding-left:10px; padding-right:10px;"><span class="glyphicon glyphicon-user"></span></a></li>
+        <li><a href="#" style="padding-left:10px; padding-right:10px;"><span class="glyphicon glyphicon-envelope"></span></a></li>
+        <li><a href="#" style="padding-left:10px; padding-right:10px;"><span class="glyphicon glyphicon-globe"></span></a></li>
+        <li><a href="#" style="padding-left:10px; padding-right:10px;"><span class="glyphicon glyphicon-question-sign border"></span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-size:10px;" class="glyphicon glyphicon-menu-down"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Create Page</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Create Group</a></li>
+            <li><a href="#">New Groups<span class="badge" style="background-color:#c4d2e7; color:#365899;">2</span></a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Create Ads</a></li>
+            <li><a href="#">Advertising on FriendlY</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Activity Log</a></li>
+            <li><a href="#">News Feed Preference</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Log Out</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+            </header>
+        <div class="row">
+          <div class="hidden-xs col-sm-3 col-md-2"><div id="menu">
+              <ul class="nav nav-stacked">
+                <li role="presentation" class="active actv"><a href="#" style="color:black";><img src="https://pcache-pv-eu1.badoocdn.com/p67/30085/0/0/3/1360699527/d1317897/t1454418285/c_LI5LOJbZUVdAnsUNNgHRo4xZwBNazya-.U4QcyyhtMM/1317897230/dfs_180x180/sz___size__.jpg" style="width:25px; height:25px;"/>Sanchit Ghai</a></li>
+                <li role="presentation"><a href="#" style="color:black";><i class="fa fa-newspaper-o" aria-hidden="true"></i>News Feed<span class="badge" id="news-badge">4</span></a></li>
+                <li role="presentation"><a href="#" style="color:black";><i class="fa fa-envelope" aria-hidden="true"></i>Messenger</a></li>
+              </ul>
+              <ul class="nav nav-stacked">
+               <p class="list-heading"> SHORTCUTS </p>
+                 <li role="presentation"><a href="#" style="color:black";><i class="fa fa-adn" aria-hidden="true"></i>AcadView</a></li>
+                 <li role="presentation"><a href="#" style="color:black";><i class="fa fa-html5" aria-hidden="true"></i>HTML, CSS Group</a></li>
+                 <li role="presentation"><a href="#" style="color:black";><i class="fa fa-bold" ari-hidden="true"></i>Bootstrap Fundas</a></li>
+              </ul>
+              <ul class="nav nav-stacked">
+               <p class="list-heading"> EXPLORE </p>
+                 <li role="presentation"><a href="#" style="color:black";><i class="fa fa-users" aria-hidden="true"></i>Groups</a></li>
+                 <li role="presentation"><a href="#" style="color:black";><i class="fa fa-calendar" aria-hidden="true"></i>Events</a></li>
+                 <li role="presentation"><a href="#" style="color:black";><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Pages</a></li>
+             </ul>
+              <ul class="nav nav-stacked">
+               <p class="list-heading"> Create </p>
+                 <li role="presentation"><a href="#">Adv.</a></li>
+                 <li role="presentation"><a href="#">Events</a></li>
+                 <li role="presentation"><a href="#">Pages</a></li>
+             </ul>
+          </div></div>
+          <div class="col-xs-12 col-sm-9 col-md-7"><div id="main">
+
+<div class="panel panel-default">
+            <div class="panel-heading">
+                <button class="post-btns" type="submit"><i class="fa fa-pencil" aria-hidden="true"></i>Create a Post</button>
+                <button class="pic-vid-border" type="submit"><i class="fa fa-file-image-o" aria-hidden="true"></i>Picture/Video Album</button>
+                <button class="post-btns" type="submit"><i class="fa fa-video-camera" aria-hidden="true"></i>Live Video</button>
+            </div>
+            <div class="panel-body form-group">
+                <span><img src="https://pcache-pv-eu1.badoocdn.com/p67/30085/0/0/3/1360699527/d1317897/t1454418285/c_LI5LOJbZUVdAnsUNNgHRo4xZwBNazya-.U4QcyyhtMM/1317897230/dfs_180x180/sz___size__.jpg" style="width:50px; height:50px;"/>
+                <input type="text" style="border:none;" placeholder="Hi, Sanchit. Tell your friends about your day."></input></span>
+            </div>
+            <div class="panel-footer">
+                <button style="border:0px; border-radius:32px; background-color:#f98080; padding:4px;" type="select"><i class="fa fa-picture-o"></i>Picture/Video</button>
+                <button style="border:0px; border-radius:32px; background-color:#f98080; padding:4px;" type="select"><i class="fa fa-meh-o"></i>Activity</button>
+            </div>
+            </div>
+
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+             <h3 class="panel-title"><img src="https://pcache-pv-eu1.badoocdn.com/p67/30085/0/0/3/1360699527/d1317897/t1454418285/c_LI5LOJbZUVdAnsUNNgHRo4xZwBNazya-.U4QcyyhtMM/1317897230/dfs_180x180/sz___size__.jpg" style="width:25px; height:25px;"/>Sanchit Ghai</h3>
+          </div>
+            <div class="panel-body">
+                    <div>
+        <img src="http://www.folomojo.com/wp-content/uploads/2015/02/16/104.jpg" class="img-responsive image-post" alt="Responsive image">
+    </div>
+
+                <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                      <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <input placeholder="Add a comment" style="width:100%;" type="text"/>
+            </div>
+          </div>
+
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+             <h3 class="panel-title"><img src="https://pcache-pv-eu1.badoocdn.com/p67/30085/0/0/3/1360699527/d1317897/t1454418285/c_LI5LOJbZUVdAnsUNNgHRo4xZwBNazya-.U4QcyyhtMM/1317897230/dfs_180x180/sz___size__.jpg" style="width:25px; height:25px;"/>Sanchit Ghai</h3>
+          </div>
+            <div class="panel-body">
+                    <div>
+        <blockquote>
+          <p>All men who have turned out worth anything have had the chief hand in their own education.</p>
+          <footer>Walter Scott</footer>
+        </blockquote>
+    </div>
+
+                <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                      <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <input placeholder="Add a comment" style="width:100%;" type="text"/>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+             <h3 class="panel-title"><img src="https://pcache-pv-eu1.badoocdn.com/p67/30085/0/0/3/1360699527/d1317897/t1454418285/c_LI5LOJbZUVdAnsUNNgHRo4xZwBNazya-.U4QcyyhtMM/1317897230/dfs_180x180/sz___size__.jpg" style="width:25px; height:25px;"/>Sanchit Ghai</h3>
+          </div>
+                <div class="panel-body">
+                    <div><h3 class="text-post">Searching for a new laptop online is basically forcing your current computer to dig its own grave. </h3></div>
+
+                <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                      <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+                </div>
+            <div class="panel-footer">
+            <div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="http://via.placeholder.com/32x32" alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <p style="margin-bottom:0px;"> <span style="color:blue";><a style="font-size:20px; text-decoration:none;" href="#">Desmon </a></span> Wow, that's really insightful! </p>
+    <button style="font-weight:bold; font-size:15px; border:none; background-color:#f5f5f5; padding-bottom:20px;" type="like">like</button>
+    <button style="font-weight:bold; font-size:15px; border:none; background-color:#f5f5f5; padding-bottom:20px;" type="reply">reply</button>
+  </div>
+  <input placeholder="Add a comment" style="width:100%;" type="text"/>
+</div>
+          </div>
+</div>
+</div>
+
+          </div></div>
+          <div class="hidden-xs hidden-sm col-md-3"><div id="sidebar">
+              <div style="height:200px; overflow:auto;"  id="in-sidebar">
+
+  <!-- Nav tabs -->
+  <ul style="font-size:10px" class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#top-trends" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-line-chart"></i>top trends</a></li>
+    <li role="presentation"><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-odnoklassniki" aria-hidden="true"></i>Politics</a></li>
+    <li role="presentation"><a href="#sports" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-futbol-o" aria-hidden="true"></i>sports</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="top-trends">
+        <div class="top">
+        <div class="top-trends-1">
+            <h6><a href="#"><i class="fa fa-line-chart" aria-hidden="true"></i>Goods and Services Tax</a><br/>
+            As India enters GST era, small traders are hopeful, yet anxious - <a href="#">in.news.yahoo.com</a></h6>
+        </div>
+        <div class="top-trends-2">
+            <h6><a href="#"><i class="fa fa-line-chart" aria-hidden="true"></i>Maruti Suzuki</a><br/>
+            GST effect: Maruti Suzuki reduces vehicle prices- <a href="#">abplive.in</a></h6>
+        </div>
+        <div class="top-trends-3">
+            <h6><a href="#"><i class="fa fa-line-chart" aria-hidden="true"></i>Qatar</a><br/>
+            Qatar Says Arab Demands 'Made To Be Rejected' Ahead Of Sunday Deadline - <a href="#">ndtv.com</a></h6>
+        </div>
+        </div>
+    </div>
+
+    <div role="tabpanel" class="tab-pane" id="politics">
+        <div class="pol">
+        <div class="politics-1">
+            <h6><a href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i>Adhaar</a><br/>
+            Tax department notifies form for Aadhaar-PAN linking. The..- <a href="#">economictimes.indiatimes.com</a></h6>
+        </div>
+        <div class="politics-2">
+            <h6><a href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i>Narendra Modi</a><br/>
+            Tough action against those helping hide black money, over.. - <a href="#">economictimes.indiatimes.com</a></h6>
+        </div>
+        <div class="politics-3">
+            <h6><a href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i>Goods and Services Tax</a><br/>
+            As India enters GST era, small traders are hopeful, yet anxious - <a href="#">in.news.yahoo.com</a></h6>
+        </div>
+        </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="sports">
+        <div class="sport">
+        <div class="sports-1">
+            <h6><a href="#"><i class="fa fa-futbol-o" aria-hidden="true"></i>Chella Choi</a><br/>
+            Golf roundup: Chella Choi surges into tie with Danielle Kang at Women's PGA- <a href="#">latimes.com</a></h6>
+        </div>
+        <div class="sports-2">
+            <h6><a href="#"><i class="fa fa-futbol-o" aria-hidden="true"></i>FIFA U-17 World Cup</a><br/>
+            India's Under-17 World Cup Matches Shifted From Mumbai To New Delhi.. - <a href="#">sports.ndtv.com</a></h6>
+        </div>
+        <div class="sports-3">
+            <h6><a href="#"><i class="fa fa-futbol-o" aria-hidden="true"></i>England vs. South Africa</a><br/>
+            England vs South Africa: England include Gary Ballance, Stuart Broad in - <a href="#">sports.yahoo.com</a></h6>
+        </div>
+        </div>
+    </div>
+  </div>
+
+</div>
+
+          </div>
+          <div style="margin-top:20px;" class="games">
+              <marquee><b>Games</b></marquee>
+              <img class="img-responsive" src="https://i.ytimg.com/vi/1ytcMwn3G64/maxresdefault.jpg"/>
+          </div>
+          </div>
+          </div>
+        <footer>
+            <ul class="nav nav-pills pull-right">
+              <li role="presentation "><a href="# ">About Us</a></li>
+              <li role="presentation "><a href="# ">Home</a></li>
+              <li role="presentation "><a href="# ">Privacy</a></li>
+              <li role="presentation "><a href="# ">Advertising</a></li>
+              <li role="presentation "><a href="# ">Cookies</a></li>
+              <li role="presentation "><a href="# ">Ad Choices</a></li>
+            </ul>
+        </footer>
+
+
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
